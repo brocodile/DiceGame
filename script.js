@@ -10,3 +10,12 @@ const four = [0,2,6,8];
 const five = [0,2,4,6,8];
 const six = [0,2,3,5,6,8];
 
+function applyColors(box, arr){
+    for(let i = 0; i < 9; i++){
+        if (arr.includes(i)){
+            box[i].style["background-color"] = "white";
+        }else{
+            box[i].style["visibility"] = "hidden";
+        }
+    }
+}
