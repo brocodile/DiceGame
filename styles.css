@@ -1,0 +1,19 @@
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #180161;
+}
+h1{
+    text-align: center;
+    font-family: "Fascinate Inline";
+    color: #FB773C;
+    font-size: 3vw;
+}
+#result{
+    font-size: 4vw;
+    font-style: italic;
+    color: red;
+}
