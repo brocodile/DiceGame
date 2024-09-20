@@ -30,7 +30,17 @@ footer{
     grid-template-rows: 50px 200px;
     gap: 30px;
     justify-content: center;
+    font-size: 16px;
 }
 .grid-container>*{
     border: 1px solid red;
+}
+
+#p1, #p2{
+    font-size: 1.3rem;
+    color: rgb(70, 218, 218);
+    text-align: center;
+    font-family: consolas, monospace, sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
