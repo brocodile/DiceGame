@@ -10,12 +10,12 @@ h1{
     text-align: center;
     font-family: "Fascinate Inline", sans-serif, system-ui;
     color: #FB773C;
-    font-size: 3vw;
+    font-size: 2rem;
     /* border: 1px solid wheat; */
     margin: 20px auto;
 }
 #result{
-    font-size: 4vw;
+    font-size: 3rem;
     font-style: italic;
     color: red;
     margin-bottom: 40px;
@@ -51,4 +51,13 @@ footer{
 #die1,#die2{
     background-color: #D91656;
     border-radius: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+.dots{
+    background-color: white;
+    border-radius: 50%;
 }
