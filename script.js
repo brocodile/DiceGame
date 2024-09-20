@@ -1,5 +1,5 @@
-const playerOneScore = Math.floor((Math.random()*5) + 1); // 1-6
-const playerTwoScore = Math.floor((Math.random()*5) + 1); // 1-6
+const playerOneScore = Math.floor((Math.random()*6) + 1); // 1-6
+const playerTwoScore = Math.floor((Math.random()*6) + 1); // 1-6
 const oneBox = document.querySelectorAll("#die1>*");
 const twoBox = document.querySelectorAll("#die2>*");
 const res = document.querySelector("#result");
