@@ -61,3 +61,16 @@ footer{
     background-color: white;
     border-radius: 50%;
 }
+#reloader{
+    background-color: #D91656;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: monospace, sans-serif;
+    color:aliceblue;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
