@@ -74,3 +74,21 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 600px){
+    .grid-container{
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 20px 150px;
+        gap: 10px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    #result{
+        font-size: 2rem;
+    }
+    #die1,#die2{
+        padding: 10px;
+        gap: 15px;
+    }
+}
