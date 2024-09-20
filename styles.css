@@ -21,4 +21,16 @@ footer{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    margin-top: 1rem;
+}
+.grid-container{
+    display: grid;
+    border: 1px solid white;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 200px;
+    gap: 30px;
+    justify-content: center;
+}
+.grid-container>*{
+    border: 1px solid red;
 }
