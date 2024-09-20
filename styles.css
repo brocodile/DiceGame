@@ -11,11 +11,14 @@ h1{
     font-family: "Fascinate Inline", sans-serif, system-ui;
     color: #FB773C;
     font-size: 3vw;
+    /* border: 1px solid wheat; */
+    margin: 20px auto;
 }
 #result{
     font-size: 4vw;
     font-style: italic;
     color: red;
+    margin-bottom: 40px;
 }
 footer{
     color: white;
@@ -25,16 +28,17 @@ footer{
 }
 .grid-container{
     display: grid;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     grid-template-columns: 200px 200px;
-    grid-template-rows: 50px 200px;
+    grid-template-rows: 30px 200px;
     gap: 30px;
     justify-content: center;
     font-size: 16px;
+    margin-bottom: 5vh;
 }
-.grid-container>*{
+/* .grid-container>*{
     border: 1px solid red;
-}
+} */
 
 #p1, #p2{
     font-size: 1.3rem;
@@ -43,4 +47,8 @@ footer{
     font-family: consolas, monospace, sans-serif;
     font-style: italic;
     font-weight: bold;
+}
+#die1,#die2{
+    background-color: #D91656;
+    border-radius: 5%;
 }
